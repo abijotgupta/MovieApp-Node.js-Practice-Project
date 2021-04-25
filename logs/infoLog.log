@@ -33,3 +33,4 @@
 {"message":"::1 - - [25/Apr/2021:17:28:35 +0000] \"GET /movie/573a1391f29313caabcd7d0 HTTP/1.1\" 400 11 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
 {"message":"Bad Request","level":"error"}
 {"message":"::1 - - [25/Apr/2021:17:30:52 +0000] \"GET /movies/d HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [25/Apr/2021:17:53:06 +0000] \"GET /movies/1 HTTP/1.1\" 200 12474 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\"\n","level":"info"}
