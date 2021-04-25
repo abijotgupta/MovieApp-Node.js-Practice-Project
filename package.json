@@ -10,7 +10,9 @@
   "author": "Abijot Gupta",
   "license": "ISC",
   "dependencies": {
+    "bson": "^4.3.0",
     "express": "^4.17.1",
+    "http-errors": "^1.8.0",
     "mongodb": "^3.6.6",
     "morgan": "^1.10.0",
     "winston": "^3.3.3"

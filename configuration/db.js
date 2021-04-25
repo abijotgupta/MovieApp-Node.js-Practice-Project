@@ -8,7 +8,11 @@ const dbConnection = (collection, callback) => {
         await callback(db);
         client.close();
     })
-    .catch();
 }
+
+// dbConnection('movies', async (db) => {
+//     const movie = await db.findOne();
+//     console.log(movie);
+// })
 
 module.exports = dbConnection
