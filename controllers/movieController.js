@@ -1,10 +1,11 @@
 const { dbConnection } = require("../configuration");
 const {ObjectId} = require('bson');
+const createError = require('http-errors');
 
 const getMovies = (req, res, next) => {
     const pageNum = parseInt(req.params.page);
     if(isNaN(pageNum)) {
-        return res.status(400).send('Bad Request');
+        return next(createError(400));
     }
 
     const moviesToSkip = (pageNum - 1) * 10;
@@ -14,7 +15,7 @@ const getMovies = (req, res, next) => {
             const movies = await db.find({}).skip(moviesToSkip).limit(10).toArray();
             res.json(movies);
         } catch(err) {
-            return res.status(500).send('Internal Server Error');
+            return next(createError(500));
         }
     });
 };
@@ -30,11 +31,11 @@ const getOneMovie = (req, res, next) => {
         try {
             const movie = await db.findOne({_id: _movieId});
             if(!movie) {
-                return res.status(400).send('Not Found');
+                return next(createError(400));
             }
             res.json(movie);
         } catch(err) {
-            return res.status(500).send('Server Error');
+            return next(createError(500));
         }
     });
 }
