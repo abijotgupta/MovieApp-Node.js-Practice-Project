@@ -1,10 +1,29 @@
+/**
+ * authRouter
+ * @module routes/auth
+*/
+
+
+/**
+ * @type {Object}
+ * @namespace authRouter
+ */
 const router = require('express').Router();
-const { getLogin } = require('../controllers');
+const { getLogin, postSignup } = require('../controllers');
 router
-    .get('/login', getLogin)
+    /**
+     * @function post
+     * @param {string} /login
+     * @param {Callback} postLogin {@link module:controllers/auth/login~postLogin}
+    */
     .post('/login')
-    .get('/signup')
-    .post('/signup')
+
+    /**
+     * @function post
+     * @param {string} /signup
+     * @param {Callback} postSignup {@link module:controllers/auth/signup~postSignup}
+    */
+    .post('/signup', postSignup)
 
 
 module.exports = router;

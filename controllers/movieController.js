@@ -1,7 +1,19 @@
+/**
+ * movie handler
+ * @module controllers/movieController
+ */
+
 const { dbConnection } = require("../configuration");
 const {ObjectId} = require('bson');
 const createError = require('http-errors');
 
+/**
+ * get movies
+ * @function getMovies
+ * @param {Object} req - request object
+ * @param {Object} res - response object
+ * @param {Callback} next - callback
+ */
 const getMovies = (req, res, next) => {
     const pageNum = parseInt(req.params.page);
     if(isNaN(pageNum)) {
@@ -10,7 +22,12 @@ const getMovies = (req, res, next) => {
 
     const moviesToSkip = (pageNum - 1) * 10;
 
-    dbConnection('movies', async(db) => {
+    dbConnection('movies',
+        /**
+         * @callback dbCallback
+         * @param {Object} db - site of db for operations
+        */
+        async(db) => {
         try {
             const movies = await db.find({}).skip(moviesToSkip).limit(10).toArray();
             res.json(movies);
@@ -20,6 +37,13 @@ const getMovies = (req, res, next) => {
     });
 };
 
+/**
+ * get one movie
+ * @function getMovie
+ * @param {Object} req - request object
+ * @param {Object} res - response object
+ * @param {Callback} next - callback
+ */
 const getOneMovie = (req, res, next) => {
     //id is stored in db as object
     if(! ObjectId.isValid(req.params.id)) {
@@ -27,7 +51,12 @@ const getOneMovie = (req, res, next) => {
     }
     const _movieId = new ObjectId(req.params.id);
 
-    dbConnection('movies', async(db) => {
+    dbConnection('movies',
+    /**
+     * @callback dbCallback
+     * @param {Object} db - site of db for operations
+    */
+    async(db) => {
         try {
             const movie = await db.findOne({_id: _movieId});
             if(!movie) {
