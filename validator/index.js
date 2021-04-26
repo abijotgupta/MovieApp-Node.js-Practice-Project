@@ -1,3 +1,5 @@
-// module.exports = {
-//     userValidator: require("./userValidator"),
-// }
+const { schema } =  require('./userValidator');
+
+module.exports = {
+    userValidator: schema
+}

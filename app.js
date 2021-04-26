@@ -10,7 +10,6 @@ const logger = require('./configuration/logger');
 const middleware = require('./middlewares');
 const routes = require('./routes/index.js');
 const createError = require('http-errors');
-const { error } = require('winston');
 
 /**
  * @type {Object}
@@ -39,7 +38,6 @@ routes(app);
 app.use((req, res, next) => {
     const error = createError(404);
     next(error);
-    //res.status(error.statusCode).send(error.message);
 });
 
 /**
@@ -56,12 +54,13 @@ app.use(
      * @param {Callback} next
     */
     (error, req, res, next) => {
-    logger.error(error.message);
-    res.statusCode = error.statusCode;
+        logger.error(error.message);
 
-    res.json( {
-        message: error.message,
-    });
-});
+        res.statusCode = error.statusCode || 500;
+        res.json({
+            message: error.message
+        });
+    }
+);
 
 module.exports = app;

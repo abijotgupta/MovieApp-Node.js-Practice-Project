@@ -57,3 +57,78 @@
 {"message":"::1 - - [26/Apr/2021:11:05:36 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
 {"message":"Cannot read property 'validate' of undefined","level":"error"}
 {"message":"::1 - - [26/Apr/2021:11:08:36 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:50:21 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:57:05 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:57:16 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:57:31 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:58:02 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:58:18 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:58:19 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:11:58:20 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:12:01:18 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:48:17 +0000] \"POST /auth/signup HTTP/1.1\" 500 1252 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:50:27 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:52:42 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:52:58 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:54:17 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:16:58:45 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:03:17 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:12:51 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:05 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:07 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:08 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:08 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:09 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:13:09 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:19:04 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:24:27 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:24:28 +0000] \"POST /auth/signup HTTP/1.1\" 500 1253 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Cannot read property 'validate' of undefined","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:27:46 +0000] \"POST /auth/signup HTTP/1.1\" 500 58 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"userValidator.validate is not a function","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:36:20 +0000] \"POST /auth/signup HTTP/1.1\" 500 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"userValidator.validate is not a function","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:38:40 +0000] \"POST /auth/signup HTTP/1.1\" 500 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"userValidator.validate is not a function","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:38:41 +0000] \"POST /auth/signup HTTP/1.1\" 500 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"userValidator.validate is not a function","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:38:42 +0000] \"POST /auth/signup HTTP/1.1\" 500 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"userValidator.validate is not a function","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:44:12 +0000] \"POST /auth/signup HTTP/1.1\" 500 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"\"username\" length must be less than or equal to 10 characters long","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:45:42 +0000] \"POST /auth/signup HTTP/1.1\" 400 82 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:17:46:06 +0000] \"POST /auth/signup HTTP/1.1\" 201 48 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"This user is already in use","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:47:52 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"\"username\" must only contain alpha-numeric characters","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:48:10 +0000] \"POST /auth/signup HTTP/1.1\" 400 69 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"This email is already in use","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:48:16 +0000] \"POST /auth/signup HTTP/1.1\" 409 42 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"This user is already in use","level":"error"}
+{"message":"::1 - - [26/Apr/2021:17:48:21 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}

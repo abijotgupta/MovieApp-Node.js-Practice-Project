@@ -1,5 +1,6 @@
 const dbConnection = require("../configuration/db");
 const { userValidator } = require("../validator");
+const { hashSync } = require('bcryptjs');
 
 class User {
     
@@ -15,9 +16,16 @@ class User {
      * saves a user into the db
      * @param {Callback} cb - callback after user saving correctly 
      */
-    save() {
-        dbConnection('users', (db) => {
-            db.insertOne(this.userData);
+    save(cb) {
+        dbConnection('users', async (db) => {
+            try{
+                const hashedPassword = hashSync(this.userData['password'], 12);
+                this.userData['password'] = hashedPassword;
+                db.insertOne(this.userData);
+                cb();
+            } catch(error) {
+                cb(error);
+            }
         });
     };
 
@@ -57,28 +65,14 @@ class User {
         });
     };
 
-    
+    /**
+     * validate user input
+     * @param {Object} userData - user input
+     * @static
+    */
     static validate(userData) {
         return userValidator.validate(userData);
-        //console.log(result);
-    };
+    }
 };
-
-// const user = new User({
-//     username: 'AbijotGupta',
-//     email: 'abc@example.com',
-//     password: 'Example@123',
-//     first_name: 'Abijot',
-//     last_name: 'Gupta'
-// });
-
-// user.checkExistence()
-//     .then(check => {
-//         console.log(check);
-//     })
-//     .catch(err => {
-//         console.log(err)
-//     })
-
 
 module.exports = User;
