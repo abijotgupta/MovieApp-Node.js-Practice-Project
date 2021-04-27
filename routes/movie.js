@@ -9,6 +9,7 @@
 */
 const router = require('express').Router();
 const { getMovies, getOneMovie } = require('../controllers');
+const { auth } = require('../middlewares');
 
 router
     /**
@@ -16,7 +17,7 @@ router
      * @param {string} /movies/:page
      * @param {Callback} getMovies {@link module:controllers/movie~getMovies}
     */
-    .get('/movies/:page', getMovies)
+    .get('/movies/:page', auth, getMovies)
 
     /**
      * @function get

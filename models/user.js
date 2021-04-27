@@ -1,6 +1,6 @@
 const dbConnection = require("../configuration/db");
-const { userValidator } = require("../validator");
-const { hashSync } = require('bcryptjs');
+const { userValidator, loginSchema } = require("../validator");
+const { hashSync, compareSync } = require('bcryptjs');
 
 class User {
     
@@ -72,7 +72,52 @@ class User {
     */
     static validate(userData) {
         return userValidator.validate(userData);
-    }
+    };
+
+
+    /**
+     * login a user
+     * @param {Object} userData - user input
+     * @returns {Promise} resolves with an error or user data
+     * @static
+    */
+    static login(userData) {
+        return new Promise((resolve, reject) => {
+
+            //validation
+            const validation = loginSchema.validate(userData);
+            if (validation.error) {
+                const error = new Error(validation.error.message);
+                error.statusCode = 400;
+                return resolve(error);
+            }
+
+            dbConnection('users', async (db) => {
+                try {
+
+                    //find user from  database
+                    const user = await db.findOne(
+                        { '$or': [
+                            { username: userData['username'] }, 
+                            { email: userData['username'] } ]
+                        }, 
+                        { projection: {username: 1, password: 1} }
+                    );
+
+                    if (!user || !compareSync(userData[`password`], user.password)) {
+                        const error = new Error(`Please enter valid username and password`);
+                        error.statusCode = 400;
+                        return resolve(error);
+                    } 
+                    resolve(user);                    
+
+                } catch (err) {
+                    reject(err);
+                }
+            });
+        });
+    };
 };
+
 
 module.exports = User;

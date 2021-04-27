@@ -132,3 +132,57 @@
 {"message":"::1 - - [26/Apr/2021:17:48:16 +0000] \"POST /auth/signup HTTP/1.1\" 409 42 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
 {"message":"This user is already in use","level":"error"}
 {"message":"::1 - - [26/Apr/2021:17:48:21 +0000] \"POST /auth/signup HTTP/1.1\" 409 41 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Please enter valid username and password","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:38:56 +0000] \"POST /auth/login HTTP/1.1\" 400 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Please enter valid username and password","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:40:39 +0000] \"POST /auth/login HTTP/1.1\" 400 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unexpected end of JSON input","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:40:48 +0000] \"POST /auth/login HTTP/1.1\" 400 42 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unexpected end of JSON input","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:40:55 +0000] \"POST /auth/login HTTP/1.1\" 400 42 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"\"password\" is required","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:41:01 +0000] \"POST /auth/login HTTP/1.1\" 400 38 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Please enter valid username and password","level":"error"}
+{"message":"::1 - - [26/Apr/2021:18:41:17 +0000] \"POST /auth/login HTTP/1.1\" 400 54 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:18:41:25 +0000] \"POST /auth/login HTTP/1.1\" 200 135 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:18:59:16 +0000] \"POST /auth/login HTTP/1.1\" 200 187 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:19:00:06 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:19:07:10 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:19:07:40 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:19:08:20 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:30:21 +0000] \"POST /movies/4 HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:30:29 +0000] \"POST /movies/4 HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:30:36 +0000] \"POST /movies/4 HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:30:54 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"\"email\" is required","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:32:01 +0000] \"POST /auth/signup HTTP/1.1\" 400 35 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"\"email\" is required","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:32:11 +0000] \"POST /auth/signup HTTP/1.1\" 400 35 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [26/Apr/2021:19:32:23 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Not Found","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:32:35 +0000] \"POST /movies/2 HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:32:38 +0000] \"GET /movies/2 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:32:46 +0000] \"GET /movies/2 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:33:28 +0000] \"GET /movies/2 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:33:51 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [26/Apr/2021:19:34:20 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [27/Apr/2021:05:08:37 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [27/Apr/2021:05:09:13 +0000] \"POST /auth/login HTTP/1.1\" 200 197 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [27/Apr/2021:05:09:32 +0000] \"GET /movies/123 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [27/Apr/2021:05:09:44 +0000] \"GET /movies/123 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [27/Apr/2021:05:10:59 +0000] \"GET /movies/123 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"Unauthorized","level":"error"}
+{"message":"::1 - - [27/Apr/2021:05:23:02 +0000] \"GET /movies/123 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}

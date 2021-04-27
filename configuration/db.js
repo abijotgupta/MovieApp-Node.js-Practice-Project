@@ -4,8 +4,7 @@
  */
 
 const { MongoClient } = require('mongodb');
-const _uri = "mongodb+srv://RamGupta:Ramgupta@123@movieappproject.vzkl4.mongodb.net/sample_mflix?retryWrites=true&w=majority";
-
+const _uri = process.env.MONGODB_URI;
 /**
  * @function dbConnection
  * @param {string} collection - collection name

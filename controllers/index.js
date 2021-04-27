@@ -5,12 +5,12 @@
  * @requires module:controllers/auth/postSignup
 */
 
-//const { getLogin } = require('./auth/login');
+const { postLogin } = require('./auth/login');
 const { postSignup } = require('./auth/signup');
 const { getMovies, getOneMovie } = require('./movieController');
 
 module.exports = {
-    //getLogin,
+    postLogin,
     getMovies,
     getOneMovie,
     postSignup,

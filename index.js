@@ -1,3 +1,4 @@
+require('dotenv').config();
 const http = require('http');
 const app = require('./app.js');
 
@@ -12,6 +13,6 @@ const server = http.createServer(app);
  * @param {number} port - port
  * @param {Callback} listener
 */
-server.listen('5600', () => {
-    console.log('Server is listening now!!!');
+server.listen(process.env.PORT, () => {
+    console.log(`Server is listening now on port ${process.env.PORT}!!!`);
 });

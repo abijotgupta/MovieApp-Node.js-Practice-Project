@@ -9,7 +9,7 @@
  * @namespace authRouter
  */
 const router = require('express').Router();
-const { getLogin, postSignup } = require('../controllers');
+const { postLogin, postSignup } = require('../controllers');
 
 router
     /**
@@ -17,7 +17,7 @@ router
      * @param {string} /login
      * @param {Callback} postLogin {@link module:controllers/auth/login~postLogin}
     */
-    .post('/login')
+    .post('/login', postLogin)
 
     /**
      * @function post
